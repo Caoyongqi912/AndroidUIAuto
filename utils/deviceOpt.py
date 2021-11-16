@@ -10,7 +10,6 @@ from typing import Union, Optional, Any
 
 
 class DeviceOpt:
-    PACKAGE_NAME = "tech.tosee.app"
 
     def __init__(self, u: Device):
         """
@@ -455,8 +454,6 @@ class DeviceOpt:
 
 
 if __name__ == '__main__':
-    package_name = "tech.tosee.app"
-    download = "https://download.tosee.tech/android/beta/tosee-H3-debug-202110271149-2.11.3-build301.apk"
     from devicePool import DevicePool
     from u import U2
 

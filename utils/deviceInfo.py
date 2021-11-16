@@ -17,7 +17,7 @@ class DeviceInfo:
     def __init__(self):
         # 本人mac环境 adb需要绝对路径
         if sys.platform == "darwin":
-            self.adbPath = "/Users/yongqi/Library/Android/sdk/platform-tools/"
+            self.adbPath = "xx/sdk/platform-tools/"
         else:
             self.adbPath = ""
 
